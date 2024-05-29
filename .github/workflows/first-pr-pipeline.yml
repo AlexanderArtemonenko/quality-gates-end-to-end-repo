@@ -4,6 +4,7 @@ name: First PR pipeline
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 23 * * *'
   pull_request:
